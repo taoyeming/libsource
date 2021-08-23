@@ -30,6 +30,8 @@ Pod::Spec.new do |s|
   
     s.ios.deployment_target = '9.0'
 
+    s.default_subspec = 'Core'
+
     s.subspec 'Core' do |ss|
       ss.vendored_libraries = "SDWebImage/Classes/**/*.a"
       ss.source_files = "SDWebImage/Classes/**/*.h"
