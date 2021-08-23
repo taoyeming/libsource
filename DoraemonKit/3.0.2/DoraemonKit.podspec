@@ -43,6 +43,8 @@ TODO: Add long description of the pod here.
     ss.resource = 'DoraemonKit/Assets/*.bundle'
   end
   
+  s.default_subspec = 'Core'
+  
   # s.resource_bundles = {
   #   'DoraemonKit' => ['DoraemonKit/Assets/*.png']
   # }
